@@ -1,0 +1,61 @@
+{
+    "results": [
+        {
+            "fsq_id": "5c2b1c8565211f002c9798e7",
+            "categories": [
+                {
+                    "id": 13065,
+                    "name": "Restaurant",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                        "suffix": ".png"
+                    }
+                }
+            ],
+            "chains": [],
+            "distance": 44,
+            "geocodes": {
+                "main": {
+                    "latitude": 12.965284,
+                    "longitude": 77.714238
+                },
+                "roof": {
+                    "latitude": 12.965284,
+                    "longitude": 77.714238
+                }
+            },
+            "link": "/v3/places/5c2b1c8565211f002c9798e7",
+            "location": {
+                "address": "321 B Block, 60 Feet Main Road, Aecs Layout, Kundanhalli, Brookefield",
+                "country": "IN",
+                "cross_street": "Brookefield",
+                "formatted_address": "Venue1 address",
+                "locality": "Bangalore",
+                "neighborhood": [
+                    "Kundalhalli"
+                ],
+                "postcode": "560037",
+                "region": "Karnātaka"
+            },
+            "name": "Venue1",
+            "related_places": {
+                "parent": {
+                    "fsq_id": "4d15aa07bb64224befe8b565",
+                    "name": "Brookefield"
+                }
+            },
+            "timezone": "Asia/Kolkata"
+        }
+    ],
+    "context": {
+        "geo_bounds": {
+            "circle": {
+                "center": {
+                    "latitude": 12.965,
+                    "longitude": 77.7144
+                },
+                "radius": 50
+            }
+        }
+    }
+}
