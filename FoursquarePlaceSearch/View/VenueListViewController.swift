@@ -95,13 +95,13 @@ extension VenueListViewController: VenueListViewModelDelegateProtocol {
     }
 
     func openLocationInMaps(location: CLLocationCoordinate2D, locationName: String) {
-//        let placemark = MKPlacemark(coordinate: location)
-//        let mapItem = MKMapItem(placemark: placemark)
-//        mapItem.name = locationName
-//        let options = [
-//            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: location)
-//               ]
-//        mapItem.openInMaps(launchOptions: options)
+        let placemark = MKPlacemark(coordinate: location)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = locationName
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: location)
+               ]
+        mapItem.openInMaps(launchOptions: options)
 
         // Google Map start
         
