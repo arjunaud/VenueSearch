@@ -1,7 +1,7 @@
 Things done.
 
 
-	1.	List of venues at device location for the given radius.	
+	1.	List of venues sorted in decending order of distance at device location for the given radius.	
 	2.	Address, category and distance are shown along with Venue name.
 	3.	Pagination for the venue list is implemented.
 	4.	Option to navigate to geo location of the venue in Apple Maps by tapping the venue in the list.
