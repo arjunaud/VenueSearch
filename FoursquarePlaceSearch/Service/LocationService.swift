@@ -81,7 +81,12 @@ extension LocationService: CLLocationManagerDelegate {
         guard self.locationManager.authorizationStatus != .notDetermined else {
             return
         }
-        self.completion?(.failure(.locationFetchFailed(error)))
+        let authStatus = self.locationManager.authorizationStatus
+        if authStatus == .denied || authStatus == .restricted {
+            self.completion?(.failure(.appPermissionDenied(authStatus)))
+        } else {
+            self.completion?(.failure(.locationFetchFailed(error)))
+        }
         self.completion = nil
     }
     
