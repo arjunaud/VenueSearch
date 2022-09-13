@@ -1,4 +1,6 @@
 Things done.
+
+
 	1.	List of venues at device location for the given radius.	
 	2.	Address, category and distance are shown along with Venue name.
 	3.	Pagination for the venue list is implemented.
