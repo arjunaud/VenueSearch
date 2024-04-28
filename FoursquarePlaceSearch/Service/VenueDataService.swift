@@ -78,7 +78,7 @@ struct VenueResponse: Decodable {
 }
 
 /**
-    Imlements VenueDataServiceProtocol by fetching the venues from foursquare api.
+    Implements VenueDataServiceProtocol by fetching the venues from foursquare api.
  */
 class VenueDataService: VenueDataServiceProtocol {
     func fetchVenues(url: URL, completion: @escaping (Result<([Venue], URL?), VenueDataServiceError>) -> Void) {
